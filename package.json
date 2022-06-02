@@ -1,0 +1,13 @@
+{
+  "name": "mono-repo",
+  "version": "1.0.0",
+  "devDependencies": {
+    "turbo": "^1.2.15"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "dev": "turbo run dev"
+  }
+}
